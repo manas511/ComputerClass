@@ -13,12 +13,26 @@ public class AdditionArray {
                         b [i][j] = (int)Math.floor ( Math.random() * 10 );   
                         }
                     }
+                    System.out.println("The a matrix");
                   for (int i = 0; i < c.length; i++) {
                       for (int j = 0; j < c.length; j++) {
-                          System.out.print("A : " + a[i][j] + " ");
+                        //   System.out.print("A : " + a[i][j] + " ");
                         //   System.out.println("B :"  + b[i][j] + " ");
-                      }
+                        System.out.print(a[i][j] + " " );
+                    }                                                                                                                 
+                        System.out.println("  ");
+                                                                                      
                   }
+                  System.out.println("The b matrix");
+                  for (int i = 0; i < c.length; i++) {
+                    for (int j = 0; j < c.length; j++) {
+                      //   System.out.print("A : " + a[i][j] + " ");
+                      //   System.out.println("B :"  + b[i][j] + " ");
+                      System.out.print(b[i][j] + " " );
+                  }                                                                                                                 
+                      System.out.println("  ");
+                                                                                    
+                }
                     
                 for (int i = 0; i < c.length; i++) {
                     for (int j = 0; j < c.length; j++) {
