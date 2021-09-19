@@ -25,7 +25,7 @@ public class MethodCalling{
         return false ;
     }
 
-    // static void aman (String manas ){
+    // static void aman (String manas ){                                                            
     //     System.out.println(manas);
         
     // }
