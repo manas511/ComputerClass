@@ -49,8 +49,7 @@ public class AdditionArray {
                     System.out.print(c[i][j] + " ");
                     }
                     System.out.println();
-            }
+        }
         
     }    
 }
-
