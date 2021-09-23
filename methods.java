@@ -25,7 +25,7 @@ class Methods {
         System.out.println("your fare is 25 rupees per km  ");
         fare = d*25;
     }
-    else if(d<=5){
+    else if(d<=5){  
         System.out.println("your fare is 30 rupees per km  ");
         fare = d*30;
     }
@@ -55,8 +55,7 @@ class Methods {
         aman.calculate();
         aman.Display();
      
-        
-    }
-
+         
+        }
 }
 
