@@ -7,8 +7,8 @@ public class AdditionArray {
      int c [][] = new int [3][3];
 // Inputs 
         System.out.println("your input will be given automatically ");
-                for (int i = 0; i < c.length; i++) {
-                    for (int j = 0; j < c.length; j++) {
+        for (int i = 0; i < c.length; i++) {
+            for (int j = 0; j < c.length; j++) {
                         a [i][j] = (int)Math.floor ( Math.random() * 10 );   
                         b [i][j] = (int)Math.floor ( Math.random() * 10 );   
                         }

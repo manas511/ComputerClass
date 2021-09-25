@@ -16,7 +16,7 @@ public class MenuDriver {
         System.out.println("Please enter a value " );
         double n = sc.nextDouble();
         switch (ch ){
-
+            
             case 1 :
             no =  (n/1000);
             System.out.println("The value of " + n + "miliseconds is " +no +" seconds");
